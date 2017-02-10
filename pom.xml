@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.copper-engine</groupId>
+  <artifactId>copper-engine</artifactId>
+  <version>4.3.0-SNAPHOT</version>
+  <packaging>pom</packaging>
+ 
+  <modules>
+    <module>projects/copper-cassandra/cassandra-loadtest</module>
+	    <module>projects/copper-cassandra/cassandra-storage</module>
+
+    <module>projects/copper-coreengine</module>
+	<module>projects/copper-ext</module>
+	<module>projects/copper-jmx-interface</module>
+	<module>projects/copper-regtest</module>
+		<module>projects/copper-spring</module>
+
+  </modules>
+</project>
